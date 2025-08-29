@@ -5,12 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
 
-  <!-- CSS Link -->
-  <link rel="stylesheet" href="styles.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 
-  <!-- Google Fonts (optional example) -->
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-
 </head>
 <body>
   <!-- Header / Navbar -->
@@ -28,20 +27,56 @@
 
   <!-- Hero Section -->
   <section id="hero">
-    <h2>Hello, I’m <span>Suyash Kumar Singh</span></h2>
-    <p>Aspiring Full-Stack Developer | Java | Web Development | DSA</p>
-    <a href="#projects" class="btn">View My Work</a>
+    <div class="hero-content">
+      <h2>Hello, I’m <span class="highlight">Suyash Kumar Singh</span></h2>
+      <p>Aspiring Full-Stack Developer | Java | Web Development | DSA</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
   </section>
 
+  <hr class="divider" />
+
   <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Write a short bio here about yourself, your background, and what excites you about development.</p>
+  <section id="about" class="about-section">
+    <h1>About Me</h1>
+    <p class="intro">Hi, I'm Suyash Kumar Singh, a passionate developer eager to build impactful solutions through iOS and web development.</p>
+
+    <section class="cards-container">
+      <div class="card">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>iOS Development (Swift, SwiftUI, UIKit)</li>
+          <li>Web Development (HTML, CSS, JavaScript)</li>
+          <li>Backend: SQL, Supabase</li>
+          <li>Tools: Xcode, Git, VSCode</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>Excellent communication skills</li>
+          <li>Strong problem-solving abilities</li>
+          <li>Adaptability to enhance productivity</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Programming Languages</h2>
+        <ul>
+          <li>Java</li>
+          <li>Swift</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+    </section>
   </section>
+
+  <hr class="divider" />
 
   <!-- Projects Section -->
   <section id="projects">
-    <h2>Projects</h2>
+    <h2 class="gold-heading">Projects</h2>
     <div class="project-container">
       <article class="project-card">
         <h3>Project 1</h3>
@@ -57,9 +92,11 @@
     </div>
   </section>
 
+  <hr class="divider" />
+
   <!-- Skills Section -->
   <section id="skills">
-    <h2>Skills</h2>
+    <h2 class="gold-heading">Skills</h2>
     <ul class="skills-list">
       <li>HTML</li>
       <li>CSS</li>
@@ -69,9 +106,11 @@
     </ul>
   </section>
 
+  <hr class="divider" />
+
   <!-- Contact Section -->
   <section id="contact">
-    <h2>Contact Me</h2>
+    <h2 class="gold-heading">Contact Me</h2>
     <form id="contact-form">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
@@ -80,12 +119,11 @@
     </form>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <p>&copy; 2025 Suyash Kumar Singh. All rights reserved.</p>
   </footer>
 
-  <!-- JavaScript Link -->
+  <!-- JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>

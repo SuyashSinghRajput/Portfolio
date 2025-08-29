@@ -1,0 +1,180 @@
+/* Global Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/* Navbar */
+#navbar {
+  background: rgba(15, 32, 39, 0.9);
+  padding: 1rem 2rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* About Section */
+.about-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffdd57; /* premium gold accent */
+}
+
+/* Container for cards */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive grid */
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Card Styles with gold-tinted glass */
+.card {
+  background: rgba(255, 221, 87, 0.05); /* subtle gold tint */
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid #ffdd57; /* gold border */
+  border-radius: 16px;
+  padding: 1.8rem;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 250px; /* tile-like size */
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 221, 87, 0.08); /* slightly brighter gold tint on hover */
+  border-color: #ffdd57; /* gold border */
+}
+
+/* Card Headers */
+.card h2 {
+  color: #ffdd57; /* gold */
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Lists inside Cards */
+.card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card ul li {
+  padding: 0.4rem 0;
+  border-bottom: 1px dashed rgba(255, 221, 87, 0.4); /* golden dashed line */
+  font-size: 1rem;
+  color: #fff; /* white text inside cards */
+  text-align: center;
+}
+
+.card ul li:last-child {
+  border-bottom: none;
+}
+
+/* Footer */
+#footer {
+  background: rgba(15, 32, 39, 0.9);
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: #bbb;
+  font-size: 0.9rem;
+}
+.gold-heading {
+  color: #d4af37;
+  text-align: center;
+}
+
+.project-card {
+  border: 2px solid #d4af37;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid #d4af37;
+  margin: 40px 0;
+}
+/* Hero Section */
+#hero {
+  height: 100vh; /* full screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.hero-content {
+  background: rgba(255, 221, 87, 0.05); /* subtle glass */
+  border: 1px solid rgba(212, 175, 55, 0.6);
+  border-radius: 20px;
+  padding: 2.5rem;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.4);
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content .highlight {
+  color: #ffdd57; /* golden highlight */
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #eee;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  background: #ffdd57;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #d4af37;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+
