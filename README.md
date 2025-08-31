@@ -1,7 +1,5 @@
 # 🌟 Suyash Kumar Singh Portfolio
 
-![Portfolio Preview](assets/images/Suyash_Kumar_singh(blue Background).jpg)
-
 ## Overview
 This is my **personal portfolio website**, built to showcase my skills, projects, and professional journey as an aspiring **Full-Stack Developer**.  
 The website demonstrates modern web development practices with a **responsive layout**, **glassmorphism design**, and a **dynamic contact form connected to Supabase**.
