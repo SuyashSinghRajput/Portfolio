@@ -3,186 +3,174 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
+  <title>Suyash Kumar Singh | Portfolio</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<!-- Hero Section -->
+  <!-- Navbar -->
+  <div id="navbar">
+    <nav>Suyash Kumar Singh | Portfolio</nav>
+  </div>
 
-<section id="hero">
-  <div class="hero-container">
-    <div class="hero-image">
-      <img src="assets/images/Suyash_Kumar_singh(blue Background).jpg" alt="Suyash Singh">
-    </div>
-    <div class="hero-content">
-      <h2>Hello, I’m <span class="highlight">Suyash Kumar Singh</span></h2>
-      <p>Aspiring Full-Stack Developer | Java | Web Development | DSA</p>
-      
-      <div class="hero-buttons">
-        <a href="#about" class="btn">About Me</a>
-        <a href="#projects" class="btn">View My Work</a>
-        <a href="#skills" class="btn">Skills</a>
-        <a href="#contact" class="btn">Contact</a>
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-container">
+      <div class="hero-image">
+        <img src="assets/images/Suyash_Kumar_singh(blue Background).jpg" alt="Suyash Singh">
+      </div>
+      <div class="hero-content">
+        <h2>Hello, I’m <span class="highlight">Suyash Kumar Singh</span></h2>
+        <p>Aspiring Full-Stack Developer | Java | Web Development | DSA</p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn">About Me</a>
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="#skills" class="btn">Skills</a>
+          <a href="#contact-section" class="btn">Contact</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <hr class="divider" />
 
   <!-- About Section -->
+  <section id="about" class="about-section">
+    <h1>About Me</h1>
+    <p class="intro">
+      Hi, I'm Suyash Kumar Singh, currently pursuing Computer Science with a passion for building impactful apps and solutions.
+    </p>
+    <section class="cards-container">
+      <div class="card">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>B.Tech (CSE)</strong>, Galgotias University – CGPA: 8.51</li>
+          <li><strong>Class XII (ISC)</strong> – 79.20%</li>
+          <li><strong>Class X (ICSE)</strong> – 80.5%</li>
+        </ul>
+      </div>
 
-<section id="about" class="about-section">
-  <h1>About Me</h1>
-  <p class="intro">
-    Hi, I'm Suyash Kumar Singh, currently pursuing Computer Science with a passion for building impactful apps and solutions.
-  </p>
+      <div class="card">
+        <h2>Professional Experience</h2>
+        <ul>
+          <li><strong>iOS Development Intern</strong> – Infosys, Mysore (2022 – Present)</li>
+          <li>4-week internship focusing on <em>SwiftUI</em> & <em>Supabase</em> backend</li>
+          <li>Worked in Agile Scrum teams to build a functional iOS app</li>
+          <li><a href="https://drive.google.com/file/d/..." target="_blank">📜 View Certificate</a></li>
+        </ul>
+      </div>
 
-  <section class="cards-container">
-
-    <!-- Education -->
-    <div class="card">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>B.Tech (CSE)</strong>, Galgotias University – CGPA: 8.51</li>
-        <li><strong>Class XII (ISC)</strong> – 79.20%</li>
-        <li><strong>Class X (ICSE)</strong> – 80.5%</li>
-      </ul>
-    </div>
-
-    <!-- Professional Experience -->
-    <div class="card">
-      <h2>Professional Experience</h2>
-      <ul>
-        <li><strong>iOS Development Intern</strong> – Infosys, Mysore (2022 – Present)</li>
-        <li>4-week internship focusing on <em>SwiftUI</em> & <em>Supabase</em> backend</li>
-        <li>Worked in Agile Scrum teams to build a functional iOS app</li>
-        <li><a href="https://drive.google.com/file/d/1iUfFTlRrKYxwe-1K29_gUpzl8KV3aTU/view?usp=sharing" target="_blank" style="color:#ffdd57;">📜 View Certificate</a></li>
-      </ul>
-    </div>
-
-    <!-- Hobbies & Interests -->
-    <div class="card">
-      <h2>Hobbies & Interests</h2>
-      <ul>
-        <li>♟ Playing Chess</li>
-        <li>🏏 Cricket</li>
-        <li>📚 Reading</li>
-        <li>🎵 Music</li>
-      </ul>
-    </div>
-
+      <div class="card">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+          <li>♟ Playing Chess</li>
+          <li>🏏 Cricket</li>
+          <li>📚 Reading</li>
+          <li>🎵 Music</li>
+        </ul>
+      </div>
+    </section>
   </section>
-</section>
 
   <hr class="divider" />
 
-<!-- Projects Section -->
+  <section id="projects">
+    <h2 class="gold-heading">Projects</h2>
+    <div class="project-container">
 
-<section id="projects">
-  <h2 class="gold-heading">Projects</h2>
-  <div class="project-container">
+      <article class="project-card">
+        <h3>📚 ReaderNest</h3>
+        <p>
+          <strong>ReaderNest</strong> (currently available on TestFlight) is an iOS app designed
+          to tackle the problem of <em>"Declining reading habits among youngsters"</em>.
+          It provides an engaging and gamified reading experience to motivate users
+          and help them build consistent reading habits.
+        </p>
+        <ul>
+          <li>✔ Gamified reading challenges</li>
+          <li>✔ Personalized reading progress tracking</li>
+          <li>✔ Curated book recommendations</li>
+          <li>✔ Social sharing to build community</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/SuyashSinghRajput" target="_blank" class="btn">🔗 View Code</a>
+          <a href="https://github.com/SuyashSinghRajput" target="_blank" class="btn">📱 TestFlight</a>
+        </div>
+      </article>
 
-    <!-- ReaderNest Project -->
-    <article class="project-card">
-      <h3>📚 ReaderNest</h3>
-      <p>
-        <strong>ReaderNest</strong> (currently available on TestFlight) is an iOS app designed
-        to tackle the problem of <em>"Declining reading habits among youngsters"</em>.
-        It provides an engaging and gamified reading experience to motivate users
-        and help them build consistent reading habits.
-      </p>
-      <ul>
-        <li>✔ Gamified reading challenges</li>
-        <li>✔ Personalized reading progress tracking</li>
-        <li>✔ Curated book recommendations</li>
-        <li>✔ Social sharing to build community</li>
-      </ul>
-      <div class="project-links">
-        <a href="https://github.com/SuyashSinghRajput" target="_blank" class="btn">🔗 View Code</a>
-        <a href="https://github.com/SuyashSinghRajput" target="_blank" class="btn">📱 TestFlight</a>
-      </div>
-    </article>
+      <article class="project-card">
+        <h3>🤖 Virtual Assistant</h3>
+        <p>
+          <strong>Virtual Assistant</strong> is a fun side project inspired by Tony Stark’s
+          <em>Jarvis</em>. Built with Python, it listens to voice commands, understands them,
+          and responds with speech — a simple starting point for exploring AI assistants.
+        </p>
+        <ul>
+          <li>✔ Listens and processes voice commands</li>
+          <li>✔ Speech recognition with Google API</li>
+          <li>✔ Text-to-speech responses</li>
+          <li>✔ Lightweight Python implementation</li>
+        </ul>
+        <p><strong>Tech Stack:</strong> Python 3.12+, SpeechRecognition, PyAudio, pyttsx3</p>
+        <div class="project-links">
+          <a href="https://github.com/SuyashSinghRajput/VoiceAssistant.git" target="_blank" class="btn">🔗 View Code</a>
+        </div>
+      </article>
 
-    <!-- Virtual Assistant Project -->
-    <article class="project-card">
-      <h3>🤖 Virtual Assistant</h3>
-      <p>
-        <strong>Virtual Assistant</strong> is a fun side project inspired by Tony Stark’s
-        <em>Jarvis</em>. Built with Python, it listens to voice commands, understands them,
-        and responds with speech — a simple starting point for exploring AI assistants.
-      </p>
-      <ul>
-        <li>✔ Listens and processes voice commands</li>
-        <li>✔ Speech recognition with Google API</li>
-        <li>✔ Text-to-speech responses</li>
-        <li>✔ Lightweight Python implementation</li>
-      </ul>
-      <p><strong>Tech Stack:</strong> Python 3.12+, SpeechRecognition, PyAudio, pyttsx3</p>
-      <div class="project-links">
-        <a href="https://github.com/SuyashSinghRajput/VoiceAssistant.git" target="_blank" class="btn">🔗 View Code</a>
-      </div>
-    </article>
-
-  </div>
-</section>
-
-<hr class="divider" />
-
-
-<!-- Skills Section -->
-<section id="skills" class="skills-section">
-  <h1 class="section-heading">Skills</h1>
-  <section class="cards-container">
-    <div class="card">
-      <h2>Technical Skills</h2>
-      <ul>
-        <li>iOS Development (Swift, SwiftUI, UIKit)</li>
-        <li>Web Development (HTML, CSS, JavaScript)</li>
-        <li>Backend: SQL, Supabase</li>
-        <li>Tools: Xcode, Git, VSCode</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>Soft Skills</h2>
-      <ul>
-        <li>Excellent communication skills</li>
-        <li>Strong problem-solving abilities</li>
-        <li>Adaptability to enhance productivity</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>Programming Languages</h2>
-      <ul>
-        <li>Java</li>
-        <li>Swift</li>
-        <li>JavaScript</li>
-      </ul>
     </div>
   </section>
-</section>
 
+  <hr class="divider" />
 
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <h1 class="section-heading">Skills</h1>
+    <section class="cards-container">
+      <div class="card">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>iOS Development (Swift, SwiftUI, UIKit)</li>
+          <li>Web Development (HTML, CSS, JavaScript)</li>
+          <li>Backend: SQL, Supabase</li>
+          <li>Tools: Xcode, Git, VSCode</li>
+        </ul>
+      </div>
 
+      <div class="card">
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>Excellent communication skills</li>
+          <li>Strong problem-solving abilities</li>
+          <li>Adaptability to enhance productivity</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Programming Languages</h2>
+        <ul>
+          <li>Java</li>
+          <li>Swift</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+    </section>
+  </section>
 
   <hr class="divider" />
 
   <!-- Contact Section -->
-  <section id="contact">
-    
+  <section id="contact-section">
+    <h2>Contact Me</h2>
     <div class="contact-links">
-  <a href="mailto:your.email@gmail.com" target="_blank" class="contact-btn">📧 Gmail</a>
-  <a href="tel:+911234567890" class="contact-btn">📞 Phone</a>
-  <a href="https://github.com/SuyashSinghRajput" target="_blank" class="contact-btn">💻 GitHub</a>
-  <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" class="contact-btn">🔗 LinkedIn</a>
-</div>
+      <a href="mailto:your.email@gmail.com" target="_blank" class="contact-btn">📧 Gmail</a>
+      <a href="tel:+911234567890" class="contact-btn">📞 Phone</a>
+      <a href="https://github.com/SuyashSinghRajput" target="_blank" class="contact-btn">💻 GitHub</a>
+    </div>
+    <div id="form-alert"></div>
     <form id="contact-form">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
@@ -191,11 +179,13 @@
     </form>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Suyash Kumar Singh. All rights reserved.</p>
-  </footer>
+  <!-- Footer -->
+  <div id="footer">
+    <p>© 2023 Suyash Kumar Singh. All rights reserved.</p>
+  </div>
 
-  <!-- JavaScript -->
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="script.js"></script>
 </body>
 </html>
