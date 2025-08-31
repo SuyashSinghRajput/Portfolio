@@ -1,6 +1,6 @@
 // Supabase setup
 const supabaseUrl = "https://ajgkjydmmmgfqzcnwkoz.supabase.co";
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqZ2tqeWRtbW1nZnF6Y253a296Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY1NzYwNTgsImV4cCI6MjA3MjE1MjA1OH0.TZFrXuJWaMos_CpAEyClUTnpAH8kKXu5Q2xRmEM3Ak0"; // keep real key only in backend for safety
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqZ2tqeWRtbW1nZnF6Y253a296Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY1NzYwNTgsImV4cCI6MjA3MjE1MjA1OH0.TZFrXuJWaMos_CpAEyClUTnpAH8kKXu5Q2xRmEM3Ak0";
 const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 
 document.addEventListener("DOMContentLoaded", () => {
